@@ -2,13 +2,21 @@
   "manifest_version": 2,
   "name": "Join Megas Games",
   "version": "1.2",
-  "description": "This extension makes you join Megas Games",
+  "description": "Finally, a way to join Megas Games through your browser!",
   "permissions": [
     "tabs"
   ],
+
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+
   "browser_action": {
     "default_title": "Click to redirect",
-    "default_icon": "icon.png",
+    "default_icon": "big.png",
     "default_popup": "popup.html"
   },
   "background": {
