@@ -7,24 +7,23 @@ document.addEventListener("DOMContentLoaded", function() {
   var forumButton = document.getElementById("forum");
 
   usServerButton.addEventListener("click", function() {
-    chrome.tabs.update({url: "https://cfx.re/join/45yo89"});
+    chrome.tabs.create({url: "https://cfx.re/join/45yo89"});
     window.close(); // close the extension window
   });
 
   euServerButton.addEventListener("click", function() {
-    chrome.tabs.update({url: "https://www.megasgames.com"});
+    chrome.tabs.create({url: "https://www.megasgames.com"});
     window.close(); // close the extension window
   });
 
   websiteButton.addEventListener("click", function() {
-    chrome.tabs.update({url: "https://www.megasgames.com"});
+    chrome.tabs.create({url: "https://www.megasgames.com"});
     window.close(); // close the extension window
   });
 
   forumButton.addEventListener("click", function() {
-    chrome.tabs.update({url: "https://forums.megasgames.com"});
+    chrome.tabs.create({url: "https://forums.megasgames.com"});
     window.close(); // close the extension window
   });
 });
-
 
